@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unicorn</title>
+
+    <meta charset="utf-8" name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <meta name="description" content="Unicorn is a dynamic group of companies providing complex services in the area of information systems and information and communication technologies.">
+    <meta name="keywords" content="unicorn, universe, college, systems">
+    <meta name="author" content="Unicorn a.s.">
+    <meta name="robots" content="index,follow">
+
+    <meta property="og:title" content="Unicorn" />
+    <meta property="og:description" content="Unicorn is a dynamic group of companies providing complex services in the area of information systems and information and communication technologies." />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- React -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.min.js"></script>
+    <script src="https://unpkg.com/react-router@3.0.2/umd/ReactRouter.min.js"></script>
+    <!-- UU5 -->
+    <link rel="stylesheet" href="/css/uu5-03.13.min.css" />
+    <script type="application/javascript" src="/js/uu5-03.13.min.js"></script>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- UnicornWeb -->
+    <link rel="stylesheet" href="/css/uu5_uni_web-01.11.03.min.css"/>
+    <script type="application/javascript" src="/js/uu5_uni_web-01.11.04.min.js"></script>
+    <script type="application/javascript" src="/js/environment.js"></script>
+    <script type="application/javascript" src="/js/extensions.js"></script>
+    <script type="application/javascript" src="/js/uu5_uni_web-pages.min.js"></script>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/meta/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/meta/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/meta/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/meta/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/meta/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/meta/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/meta/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/meta/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/meta/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/meta/apple-touch-icon-180x180.png">
+
+    <link rel="icon" type="image/png" href="/img/meta/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/meta/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/img/meta/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/meta/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/img/meta/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/img/meta/favicon.ico">
+
+    <!-- Mobile Setup Start -->
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-title" content="Unicorn" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- TODO: <link rel="apple-touch-startup-image" href="/img/startup.png">-->
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!--TODO: -->
+    <link rel="manifest" href="/img/meta/manifest.json"/>
+
+    <!-- Windows -->
+    <meta name="msapplication-TileColor" content="#009dda">
+    <meta name="msapplication-TileImage" content="/img/meta/mstile-144x144.png">
+    <meta name="msapplication-config" content="/img/meta/browserconfig.xml">
+
+    <!-- Home Screen -->
+    <script>
+      UU5.UnicornWeb.addToHome = addToHomescreen({
+        appID: 'uu5.unicornWeb',
+        autostart: false,
+        skipFirstVisit: true
+      });
+    </script>
+  </head>
+  <body>
+    <div id="router"></div>
+
+    <script type="application/javascript" src="/js/index.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-86302847-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

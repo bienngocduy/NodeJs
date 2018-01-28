@@ -11,7 +11,7 @@ moment().format();
 b = moment("20111031", "YYYYMMDD").fromNow(); // 6 years ago
 b1 = moment("20130620", "YYYYMMDD").fromNow(); // 6 years ago
 b2 = moment().startOf('day').fromNow();        // a day ago
-b3=moment().endOf('day').fromNow();          // thời gian tới cuối ngày
+b3 = moment().endOf('day').fromNow();          // thời gian tới cuối ngày
 moment().startOf('hour').fromNow();
 
 //Calendar Time
